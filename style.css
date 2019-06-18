@@ -1,0 +1,140 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    font-size: 20px;
+    background: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+  }
+  .img{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 40%;
+  width : 100px;
+  margin-top: -30px;
+  }
+  .name{
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  }
+  .description{
+    margin-top: -20px;
+    font-size: 15px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  }
+  .facebook{
+    float: right;
+    width: 10px;
+    margin-right: 190px;
+    margin-top: -180px;
+  }
+  .facebook:hover{
+    cursor: pointer;
+  }
+  .twitter{
+    float: right;
+    width: 20px;
+    margin-right: 186px;
+    margin-top: -132px;
+  }
+  .twitter:hover{
+    cursor: pointer;
+  }
+  .google{
+    float: right;
+    width: 20px;
+    margin-right: 183px;
+    margin-top: -90px;
+  }
+  .google:hover{
+    cursor: pointer;
+  }
+  .instagram{
+    float: right;
+    width: 30px;
+    margin-right: 180px;
+    margin-top: -45px;
+  }
+  .instagram:hover{
+    cursor: pointer;
+  }
+  .incwell{
+    float: left;
+    width: 50px;
+    margin-top: -230px;
+    margin-left: 10px;
+  }
+  .incwell:hover{
+    cursor: pointer;
+  }
+  .button{
+    float: right;
+    margin-right: 583px;
+    margin-top: -10px;
+    width : 130px;
+  }
+  .area{
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+  }
+  p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -10px;
+  }
+  .title{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 70px;
+    box-shadow: 5px 10px 18px #888888;
+    background: white;
+    border-radius: 10%;
+    float: left;
+  }
+  .title1{
+    height: 200px;
+    width: 200px;
+    margin-left: 550px;
+    margin-top: 80px;
+    box-shadow: 5px 10px 18px #888888;
+    background: white;
+    border-radius: 10%;
+  }
+  .title2{
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: -223px;
+    box-shadow: 5px 10px 18px #888888;
+    background: white;
+    border-radius: 10%;
+    float: right;
+  }
