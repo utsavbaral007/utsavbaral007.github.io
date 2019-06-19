@@ -206,3 +206,10 @@ ul {
     margin-top: 25px;
     margin-left: 25px;
   }
+  .circleImage2{
+    float: right;
+    height : 50px;
+    width: 50px;
+    margin-top: 25px;
+    margin-right: 25px; 
+  }

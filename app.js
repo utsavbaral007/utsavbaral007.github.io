@@ -108,9 +108,10 @@ var titleCircle2 = document.createElement('div')
 titleCircle2.classList.add('circle2')
 var titleCircleImg2 = document.createElement('img')
 titleCircleImg2.classList.add('circleImage2')
-titleCircleImg2.src = "./images/"
+titleCircleImg2.src = "./images/code.png"
+titleCircle2.appendChild(titleCircleImg2)
 footer.appendChild (titleCircle2)
-container.appendChild(footer)
+container.appendChild(footer) 
 
 
 
