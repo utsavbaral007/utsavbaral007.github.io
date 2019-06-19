@@ -4,7 +4,7 @@ var footer = document.querySelector('.foo')
 var body = document.createElement('div')
 var image = document.createElement('img')
 image.classList.add('img')
-image.src = "./images/1.jpg"
+image.src = "./images/3.jpg"
 body.appendChild(image)
 var nameCentre = document.createElement('p')
 nameCentre.classList.add('name')
