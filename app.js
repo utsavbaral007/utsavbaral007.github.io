@@ -1,5 +1,6 @@
 var container = document.querySelector('.container')
 var footer = document.querySelector('.foo')
+
 var body = document.createElement('div')
 var image = document.createElement('img')
 image.classList.add('img')
@@ -76,13 +77,40 @@ footer.appendChild(workingArea1)
 
 var title = document.createElement('h2')
 title.classList.add('title')
+title.textContent = "Title goes here"
 var title1 = document.createElement('h2')
 title1.classList.add('title1')
+title1.textContent = "Title goes here"
 var title2 = document.createElement('h2')
 title2.classList.add('title2')
+title2.textContent = "Title goes here"
 footer.appendChild(title)
 footer.appendChild(title1)
 footer.appendChild(title2)
+
+var titleCircle = document.createElement('div')
+titleCircle.classList.add('circle')
+var titleCircleImg = document.createElement('img')
+titleCircleImg.classList.add('circleImage')
+titleCircleImg.src = "./images/javascript.png"
+titleCircle.appendChild(titleCircleImg)
+footer.appendChild(titleCircle)
+
+var titleCircle1 = document.createElement('div')
+titleCircle1.classList.add('circle1')
+var titleCircleImg1 = document.createElement('img')
+titleCircleImg1.classList.add('circleImage1')
+titleCircleImg1.src = "./images/monitor.png"
+titleCircle1.appendChild(titleCircleImg1)
+footer.appendChild (titleCircle1)
+
+var titleCircle2 = document.createElement('div')
+titleCircle2.classList.add('circle2')
+var titleCircleImg2 = document.createElement('img')
+titleCircleImg2.classList.add('circleImage2')
+titleCircleImg2.src = "./images/"
+footer.appendChild (titleCircle2)
+container.appendChild(footer)
 
 
 
