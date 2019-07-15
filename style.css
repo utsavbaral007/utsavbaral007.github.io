@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
 }
 .header ul{ 
   display: flex;
@@ -9,12 +10,12 @@
 }
 .header ul li a{
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 15px;
   font-weight: bold;
 }
 .header ul li a:hover{
-  background-color: black;
+  border-bottom: 2px solid black;
 }
 .bodyContentImage{
   text-align: center;
@@ -36,6 +37,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  position: relative;
 }
 .skills{
   display: flex;
@@ -63,11 +65,13 @@
   display: flex;
   flex-direction: column;
   margin-top: 450px;
+  position: relative;
 }
 .aboutMe{
   display: flex;
   flex-direction: column;
   margin-top: 100px;
+  position: relative;
 }
 .myInformation{
   margin-top: 50px;
@@ -336,7 +340,6 @@
 .navigationBottom ul li a:hover{
   border-bottom: 2px solid black;
 }
-
 
 
 
