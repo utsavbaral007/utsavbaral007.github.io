@@ -1,216 +1,348 @@
-body{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    margin-right: 30px;
-  }
-  
-  li {
-    float: right;
-    font-size: 20px;
-    background: none;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-  }
-  .img{
+/* body{
+  background-image: url(./images/Untitled.png);
+  background-repeat: none;
+  background-size: cover;
+} */
+
+.header{
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header ul{ 
+  display: flex;
+  list-style-type: none;
+}
+.header ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-weight: bold;
+}
+.header ul li a:hover{
+  background-color: black;
+}
+.bodyContentImage{
+  text-align: center;
+}
+.bodyContentImage .profile-photo{
+  width: 150px;
   border-radius: 50%;
-  width : 150px;
-  height: 150px;
-  margin-top: -30px;
-  }
-  .name{
-    margin-top: 5px;
-    font-size: 25px;
-    margin-left: -5px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-  }
-  .description{
-    margin-top: -25px;
-    font-size: 15px;
-    margin-left: -5px;
-    color: whitesmoke;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-  }
-  .facebook{
-    float: right;
-    width: 10px;
-    margin-right: 50px;
-    margin-top: -180px;
-  }
-  .facebook:hover{
-    cursor: pointer;
-  }
-  .twitter{
-    float: right;
-    width: 20px;
-    margin-right: 46px;
-    margin-top: -132px;
-  }
-  .twitter:hover{
-    cursor: pointer;
-  }
-  .google{
-    float: right;
-    width: 20px;
-    margin-right: 43px;
-    margin-top: -90px;
-  }
-  .google:hover{
-    cursor: pointer;
-  }
-  .instagram{
-    float: right;
-    width: 30px;
-    margin-right: 40px;
-    margin-top: -45px;
-  }
-  .instagram:hover{
-    cursor: pointer;
-  }
-  .incwell{
-    float: left;
-    width: 50px;
-    margin-top: -230px;
-    margin-left: 50px;
-  }
-  .incwell:hover{
-    cursor: pointer;
-  }
-  .button{
-    float: right;
-    margin-right: 580px;
-    margin-top: -10px;
-    width : 130px;
-  }
-  .area{
-    margin-top: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    margin-left: 50px;
-    text-decoration: underline;
-    color: white;
-  }
-  p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: -10px;
-    margin-left: 50px;
-    color: white;
-  }
-  .title{
-    height: 200px;
-    width: 300px;
-    margin-left: 50px;
-    margin-top: 65px;
-    box-shadow: 5px 10px 18px #888888;
-    background: white;
-    border-radius: 5%;
-    float: left;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .title1{
-    height: 200px;
-    width: 300px;
-    margin-left: 500px;
-    margin-top: 83px;
-    box-shadow: 5px 10px 18px #888888;
-    background: white;
-    border-radius: 5%;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .title2{
-    height: 200px;
-    width: 300px;
-    margin-right: 50px;
-    margin-top: -220px;
-    box-shadow: 5px 10px 18px #888888;
-    background: white;
-    border-radius: 5%;
-    float: right;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .circle{
-    z-index: 1;
-    position: absolute;
-    box-shadow: 5px 10px 18px #888888;
-    border-radius: 50%;
-    height : 100px;
-    width: 100px;
-    margin-top: -170px;
-    background-color: white;
-  }
-  .circle:hover{
-    cursor: pointer;
-    background-color: blue;
-  }
-  .circle1{
-    z-index: 1;
-    position: absolute;
-    box-shadow: 5px 10px 18px #888888;
-    border-radius: 50%;
-    height : 100px;
-    width: 100px;
-    margin-top: -170px;
-    margin-left: 450px;
-    background-color: white;
-  }
-  .circle1:hover{
-    cursor: pointer;
-    background-color: blue;
-  }
-  .circle2{
-    z-index: 1;
-    position: absolute;
-    box-shadow: 5px 10px 18px #888888;
-    border-radius: 50%;
-    height : 100px;
-    width: 100px;
-    margin-top: -170px;
-    margin-left: 895px;
-    background-color: white;
-  }
-  .circle2:hover{
-    cursor: pointer;
-    background-color: blue;
-  }
-  .circleImage{
-    height : 50px;
-    width: 50px;
-    margin-top: 25px;
-    margin-left: 25px;
-  }
-  .circleImage1{
-    height : 50px;
-    width: 50px;
-    margin-top: 25px;
-    margin-left: 25px;
-  }
-  .circleImage2{
-    float: right;
-    height : 50px;
-    width: 50px;
-    margin-top: 25px;
-    margin-right: 25px; 
-  }
+}
+.social{
+  position: relative;
+  bottom: 270px;
+  float: right;
+}
+.social img{
+  padding: 15px;
+}
+.expertise{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.skills{
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  width: 20%;
+  box-shadow: 5px 5px 10px #888888;
+}
+.skills .skillsLogo{
+  display: flex;
+  position: relative;
+  top: 30px;
+  right: 25px;
+  border-radius: 50%;
+  height: 50px;
+  width: 20%;
+  background-color: white;
+  box-shadow: 5px 5px 10px #888888;
+}
+.skillsLogo:hover{
+  cursor: pointer;
+  background-color: rgb(59, 174, 250);
+}
+.workingArea{
+  margin-top: 450px;
+}
+.aboutMe{
+  margin-top: 100px;
+}
+.myInformation{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.myInformation ul{
+  list-style-type: none;
+}
+.myInformation ul li{
+  position: relative;
+  left: -40px;
+  padding-bottom: 15px;
+}
+.mySkills{
+  width:100%;
+}
+.skillHTML{
+  width: 90%; background-color: blue;
+  color: white;
+}
+.skillCSS{
+  width: 70%; background-color: blue;
+  color: white;
+}
+.skillJS{
+  width: 65%; background-color: blue;
+  color: white;
+}
+.portfolio{
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-nav{
+  border-bottom: 0.5px solid;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.portfolio-nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.portfolio-nav ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+.portfolio-nav ul li a:hover{
+  cursor: pointer;
+  border-bottom: 2px solid blue;
+}
+.photo-grid{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.photo-grid img{
+  width: 350px;
+  transition: transform .5s;
+}
+.photo-grid img:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.slider{
+  margin-top: 50px;
+  height: 300px;
+  width: 100%;
+  background-color: blue;
+}
+.myTeam{
+  display:flex;
+  flex-direction: column;
+}
+.myTeams{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.people{
+  display: flex;
+  flex-direction: column;
+}
+.people-icon{
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px #888888;
+}
+.people-icon:hover{
+  cursor: pointer;
+  background-color: rgb(0, 132, 255);
+}
+.icon img{
+  border-bottom-left-radius: 10%;
+  border-top-left-radius: 10%;
+}
+.members-description{
+  width: 100%;
+}
+.moreAboutMembers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60%;
+  background-color: blue;
+}
+.moreAboutMembers .detail{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 50px;
+}
+.skillGrid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 280px;
+  width: 40%;
+  margin-top: 70px;
+}
+.socialMedia{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.skillGirdHTML{
+  height: 120px;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+}
+.skillGridCSS{
+  height: 120px;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+}
+.slillGridJS{
+  height: 120px;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+}
+.skillGridNET{
+  height: 120px;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+}
+.statistics{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  height: 200px;
+  width: 100%;
+  background-color: blue;
+}
+.projectCompleted{
+  display: flex;
+  margin-top: 60px;
+  flex-direction: column;
+}
+.happyCustomer{
+  display: flex;
+  margin-top: 60px;
+  flex-direction: column;
+}
+.workingHours{
+  display: flex;
+  margin-top: 60px;
+  flex-direction: column;
+}
+.greatFeedbacks{
+  display: flex;
+  margin-top: 60px;
+  flex-direction: column;
+}
+.blogPost{
+  display: flex;
+  flex-direction: column;
+}
+.imageDetails{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.imageFirst{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 25%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #888888;
+  transition: transform .5s;
+}
+.imageSecond{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 25%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #888888;
+  transition: transform .5s;
+}
+.imageThird{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 25%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #888888;
+  transition: transform .5s;
+}
+.imageFirst:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.imageSecond:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.imageThird:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.date{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  border-bottom: 1px solid #dad8d8;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 300px;
+  width: 100%;
+  background-color: rgb(63, 59, 59);
+  margin-top:100px;
+}
+.navigationBottom{
+  border-bottom: 1px solid rgb(43, 39, 39);
+}
+.navigationBottom ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+.navigationBottom ul li a{
+  text-decoration: none;
+  color: rgb(145, 141, 141);
+  padding: 15px;
+}
+.navigationBottom ul li a:hover{
+  border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+
+
