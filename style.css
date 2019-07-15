@@ -1,9 +1,3 @@
-/* body{
-  background-image: url(./images/Untitled.png);
-  background-repeat: none;
-  background-size: cover;
-} */
-
 .header{
   display: flex;
   flex-direction: row;
@@ -66,9 +60,13 @@
   background-color: rgb(59, 174, 250);
 }
 .workingArea{
+  display: flex;
+  flex-direction: column;
   margin-top: 450px;
 }
 .aboutMe{
+  display: flex;
+  flex-direction: column;
   margin-top: 100px;
 }
 .myInformation{
