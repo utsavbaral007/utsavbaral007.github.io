@@ -107,7 +107,7 @@
   flex-direction: column;
 }
 .portfolio-nav{
-  border-bottom: 0.5px solid;
+  border-bottom: 1px solid rgb(223, 213, 213);
   margin-top: 80px;
   display: flex;
   flex-direction: row;
@@ -124,7 +124,7 @@
 }
 .portfolio-nav ul li a:hover{
   cursor: pointer;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid rgb(158, 158, 240);
 }
 .photo-grid{
   margin-top: 50px;
@@ -340,10 +340,3 @@
 .navigationBottom ul li a:hover{
   border-bottom: 2px solid black;
 }
-
-
-
-
-
-
-
